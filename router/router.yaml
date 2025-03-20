@@ -29,10 +29,9 @@ subscription:
         products:
           path: /
 ## Enter Workshop Module Configs Below
-persisted_queries:
-  enabled: true
-  safelist:
-    enabled: false
-    require_id: false
-apq:
-  enabled: false
+coprocessor:
+  url: https://coprocessor-wn3vwa6nlq-ue.a.run.app
+  timeout: 2s
+  router:
+    response:
+      body: true
